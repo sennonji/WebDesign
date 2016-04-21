@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'mybold';
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'mynormal';
+    src: url('../fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'myitalic';
+    src: url('../fonts/Raleway-Medium-Italic.ttf');
+}
+@font-face {
+    font-family: 'myextrabold';
+    src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+@media screen and (min-width: 800px) {
+    body {
+        font-family: mybold;
+        font-size: 13px;
+        width: auto;
+        display: block;
+    }
+}
+
+.btn{
+    font-family: "mybold";
+    font-size:13px;
+    font-weight:bold;
+}
+.form-control{
+    font-family: "mybold";
+    font-size:13px;
+    font-weight:bold;
+}
+
+/*nav bar*/
+.mybackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menucontainer{
+    width:1920px;
+    background:#55595d;
+
+}
+.mycontainer{
+   /* width:100%;*/
+    width:1920px;
+    /*height:100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px #2f2f2f;
+}
+
+
+.login_btn{
+    position:absolute;
+    top:-51px;
+    left:1310px;
+}
+.adword{
+    position:absolute;
+    top:206px;
+    left:388px;
+    width:625px;
+    height:238px;
+    background: rgba(54, 56, 73, 0.3);
+    box-shadow: 0 1px 3px #2f2f2f;
+    color:white;
+}
+.loginbox{
+    position:absolute;
+    top:0px;
+    left:965px;
+}
+.topbox{
+    width:570px;
+    height:317px;
+    background:#e47925;
+    color:white;
+    font-size:1.4em;padding:20px;"
+}
+.bottombox{
+    position:absolute;
+    top:60%;
+    left:20%;
+    /*margin-top:-400px;*/
+    width:1150px;
+    border-bottom: inset;
+    /*box-shadow: 0 1px 3px #c6c6c6;*/
+}
+.bottombox1{
+    width:1152px;
+    height:378px;
+    background: rgba(255, 255, 255, 0.9);
+}
+.mycarousel_touch{
+    background: rgba(54, 56, 73, 1);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #2f2f2f;
+}
+
+.loginbox_bottom{
+    background-image:url('../images/login_bottom.png');
+    background-repeat: no-repeat;
+    height:94px;
+}
+.loginbtn_top{
+    width:224px;
+    height:54px;
+    background:#e47925;
+    padding-top:30px;
+}
+.loginbtn_bottom{
+    background-image:url('../images/login_btn.png') ;
+    background-repeat: no-repeat;
+    height:34px;
+}
+.shadow_small{
+    box-shadow: 0 1px 3px #2f2f2f;
+    border-radius: 5px;
+}
+.bettingbtndown {
+    transform: translateY(2px);
+}
+
+.carousel-indicators li{
+    background:#65698b;
+}
+
+.carousel-indicators .active{
+    background:#e37920;
+}
